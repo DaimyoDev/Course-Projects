@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.nav {
+  background-color: #f1e8b8;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav__icon {
+  font-weight: 400;
+  font-size: 40px;
+  min-width: fit-content;
+  color: #ff6666;
+  text-transform: lowercase;
+}
+
+.nav__navlist {
+  display: flex;
+  margin-left: 60%;
+}
+
+.navlist__navitem {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.navitem__navlink {
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #ff6666;
+}
+
+.navitem__navlink:hover {
+  color: #2ec4b6;
+  transition: 0.2s ease-in-out;
+}
+
+.heroview {
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+  background-color: #5d2e8c;
+  height: 80vh;
+}
+
+.heroview__title {
+  margin-bottom: 5px;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #ff6666;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.heroview__subtitle {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #f1e8b8;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+}
+.heroview__location {
+  margin-top: 5rem;
+  font-size: 40px;
+  color: #f1e8b8;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.heroview__list {
+  display: grid;
+  grid: auto auto / auto auto;
+  list-style-type: none;
+  grid-template-rows: 3;
+  gap: 50px;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.heroview__listitem {
+  font-size: 30px;
+  color: #ff6666;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+  background-color: #f1e8b8;
+  width: 15em;
+  padding: 10px;
+  align-self: center;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.heroview__listitem:hover {
+  background-color: #2ec4b6;
+  color: #5d2e8c;
+  transition: 0.2s ease-in-out;
+}
