@@ -20,6 +20,7 @@
   padding-bottom: 3rem;
   border-radius: 0.3rem;
   color: #ff6666;
+  max-width: 50rem;
 }
 .menu__title {
   margin-bottom: 0.7rem;
