@@ -118,7 +118,7 @@
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
   border: none;
   margin-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
   text-decoration: none;
   text-align: center;
 }
@@ -148,7 +148,9 @@
   grid: auto auto / auto auto;
   width: 100%;
   color: #5d2e8c;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  column-gap: 20rem;
 }
 .footer__subtitle {
   margin-bottom: 0.5rem;
@@ -161,4 +163,5 @@
 .footer__copyright {
   color: #5d2e8c;
   padding-bottom: 1rem;
+  margin-left: 1rem;
 }
