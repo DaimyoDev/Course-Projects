@@ -1,0 +1,26 @@
+.menu {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #5d2e8c;
+  min-height: fit-content;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.menu__list {
+  display: grid;
+  grid: auto auto / auto auto;
+  justify-content: center;
+  gap: 4rem;
+}
+.menu__item {
+  background-color: #f1e8b8;
+  min-width: fit-content;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 0.3rem;
+  color: #ff6666;
+}
+.menu__title {
+  margin-bottom: 0.7rem;
+}
