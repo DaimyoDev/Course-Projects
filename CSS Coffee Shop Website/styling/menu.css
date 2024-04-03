@@ -25,3 +25,9 @@
 .menu__title {
   margin-bottom: 0.7rem;
 }
+.menu__item:hover {
+  background-color: #2ec4b6;
+  color: #5d2e8c;
+  transition: 0.2s ease-in-out;
+  border-radius: 1rem;
+}
