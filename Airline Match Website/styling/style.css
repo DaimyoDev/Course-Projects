@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap");
+:root {
+  --richblack: #001524;
+  --caribbeancurrent: #15616d;
+  --papayawhite: #ffecd1;
+  --orangewheel: #ff7d00;
+  --sienna: #78290f;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--richblack);
+  color: var(--orangewheel);
+  font-family: "Quicksand";
+}
+li {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--caribbeancurrent);
+  min-width: fit-content;
+  max-width: 70rem;
+  border-radius: 1rem;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.5));
+  transition: all 0.2s ease 0.2s;
+}
+li:hover {
+  font-size: 2.5rem;
+  color: var(--papayawhite);
+  background-color: var(--sienna);
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  text-shadow: 3px -1px 3px rgba(0, 0, 0, 0.21);
+  font-family: "Lato";
+}
+.home__title {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 400;
+  color: var(--papayawhite);
+}
+.home__subtitle {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  color: var(--papayawhite);
+}
