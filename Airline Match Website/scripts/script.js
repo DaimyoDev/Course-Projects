@@ -26,13 +26,19 @@ for (let i = 0; i < flights.length; i++) {
   const flightNumberText = document.createTextNode(
     `Flight Number: ${flightNumber}`
   );
-  const headerText = document.createTextNode(
-    `${flightNumber} ${airlineName} ${airplaneType}`
+  const airlineH = document.createElement("p");
+  const airlineText = document.createTextNode(`Airline: ${airlineName}`);
+  const airplaneH = document.createElement("p");
+  const airplaneText = document.createTextNode(
+    `Airplane Type: ${airplaneType}`
   );
   airportName.appendChild(airportText);
   flightNumberH.appendChild(flightNumberText);
+  airlineH.appendChild(airlineText);
+  airplaneH.appendChild(airplaneText);
   header.appendChild(airportName);
-  header.append(flightNumberH);
+  header.appendChild(flightNumberH);
+  header.appendChild(airlineH);
+  header.appendChild(airplaneH);
   flightsList.appendChild(header);
-  console.log(flights[i].flightNumber);
 }
