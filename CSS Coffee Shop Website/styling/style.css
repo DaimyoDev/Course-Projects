@@ -139,7 +139,7 @@
   background-color: #f1e8b8;
   max-height: 100vh;
   min-height: fit-content;
-  height: 22svh;
+  height: max-content;
   filter: drop-shadow(0px -3px 4px rgba(0, 0, 0, 0.3));
   position: relative;
   bottom: 0;
@@ -168,4 +168,41 @@
   color: #5d2e8c;
   padding-bottom: 1rem;
   margin-left: 1rem;
+}
+@media screen and (max-width: 850px) and (min-width: 400px) {
+  .footer__lists {
+    column-gap: 0.5rem;
+  }
+  .footer__copyright {
+    font-size: 1rem;
+  }
+  .footer {
+    height: max-content;
+  }
+  .nav {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    height: max-content;
+  }
+  .footer__copyright {
+    font-size: 1rem;
+  }
+  .footer__lists {
+    column-gap: 0.5rem;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .heroview__listitem {
+    font-size: 1rem;
+  }
+  .heroview__list {
+    column-gap: 1.25rem;
+  }
+  .heroview__button {
+    font-size: 1rem;
+  }
 }

@@ -45,3 +45,8 @@
   color: #5d2e8c;
   transition: 0.2s ease-in-out;
 }
+@media screen and (max-width: 500px) {
+  .contact__textarea {
+    max-width: 100%;
+  }
+}
