@@ -4,6 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Please Don't Sign In</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/signinup.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="nav">
+      <h1 class="nav__logo">Tedium</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="nav__svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
+        />
+      </svg>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="posts.html" class="nav__link">All Posts</a>
+        </li>
+      </ul>
+    </nav>
+    <h2 class="signin__title">
+      Sign In <span class="signin__span">Please Don't</span>
+    </h2>
+    <form class="signin__form">
+      <label for="email" class="signin__label">Email Address:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="signin__input"
+        required
+      />
+      <br />
+      <label for="password" class="signin__label">Enter Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="signin__input"
+        required
+      />
+      <br />
+      <p class="signin__register">
+        Not registered then
+        <a href="signup.html" class="signin__signuplink">sign up!</a>
+        <span class="signin__span__small">Please Don't</span>
+      </p>
+      <a class="signin__button" href="manageposts.html">Sign In!</a>
+    </form>
+  </body>
 </html>

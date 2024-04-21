@@ -56,8 +56,17 @@ body {
   margin-bottom: 1rem;
 }
 .heroview__subtitle {
+  margin: auto;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  max-width: 70%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.heroview__background {
+  background-color: var(--brown);
+  padding: 1rem;
 }
 .heroview__postlink {
   text-decoration: none;
@@ -77,8 +86,9 @@ body {
   padding: 2rem;
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
   transition: all 0.03s 0.03s ease-in-out;
+  padding-bottom: 100%;
 }
 .heroview__post:hover {
   color: var(--lavender);
-  font-size: 1.2rem;
+  filter: hue-rotate(100deg);
 }

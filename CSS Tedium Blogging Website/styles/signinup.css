@@ -1,7 +1,69 @@
 :root {
-  lavender: #d8d4f2;
-  thistle: #c4b2bc;
-  lightbrown: #a29587;
-  brown: #846c5b;
-  darkgrey: #332e3c;
+  --lavender: #d8d4f2;
+  --thistle: #c4b2bc;
+  --lightbrown: #a29587;
+  --brown: #846c5b;
+  --darkgrey: #332e3c;
+}
+.signin__title {
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.signin__span {
+  font-size: 1.5rem;
+  color: var(--brown);
+}
+.signin__span__small {
+  font-size: 1rem;
+  color: var(--brown);
+}
+.signin__form {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--darkgrey);
+  font-family: "Inter", sans-serif;
+}
+.signin__signuplink {
+  border-radius: 1rem;
+  text-decoration: none;
+  animation: signup 5s ease-in-out 0.3s infinite alternate;
+  color: var(--darkgrey);
+}
+.signin__register {
+  margin-top: 0.5rem;
+}
+.signin__form {
+  font-size: 1.3rem;
+}
+@keyframes signup {
+  0% {
+    font-weight: 500;
+  }
+  100% {
+    font-weight: bold;
+    color: crimson;
+  }
+}
+.signin__button {
+  background-color: var(--darkgrey);
+  border: none;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: var(--lavender);
+  transition: all 0.07s 0.07s ease-in-out;
+  text-decoration: none;
+  display: block;
+  max-width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin__button:hover {
+  color: var(--lightbrown);
+  background-color: var(--brown);
 }
